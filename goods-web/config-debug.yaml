@@ -1,0 +1,30 @@
+host: '192.168.1.31'
+port: 8848
+namespace: 'b41cc0ce-3ef3-4309-ba69-9bc238d9e3f8'
+user: 'nacos'
+password: 'nacos'
+dataid: 'goods-web.json'
+group: 'dev'
+
+#name: 'goods-web'
+#port: 8021
+#
+#goods_srv:
+#  host: '192.168.1.26'
+#  port: 50051
+#  name: 'user-srv'
+#
+#jwt:
+#  key: 'L@%^8QYj#d1hUt%yhpG4AN9j#19'
+#
+#sms:
+#  key: 'xxxx'
+#  secrect: 'xxx'
+#  expire: 300
+#redis:
+#  host: '192.168.1.26'
+#  port: 6379
+#
+#consul:
+#  host: '192.168.1.26'
+#  port: 8500

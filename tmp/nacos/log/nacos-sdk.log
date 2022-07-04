@@ -1,0 +1,56 @@
+2022-05-19T23:00:00.244+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:00:05.257+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:00:10.270+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:00:10.270+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2022-05-19T23:01:04.040+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030&dataId=user-web.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:01:09.041+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:01:14.044+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"a6b026c8-061c-43c7-acf8-0a57b6220030"}>, call domain error:<Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-05-19T23:01:14.044+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:Get "http://192.168.1.26:8848/nacos/v1/cs/configs?dataId=user-web.json&group=dev&tenant=a6b026c8-061c-43c7-acf8-0a57b6220030": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+2022-06-03T11:34:32.594+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:34:32.604+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:34:32.612+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:34:32.613+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-06-03T11:34:32.613+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: 7002997d-ec19-435a-a2ee-1432fac4b923.
+2022-06-03T11:35:39.799+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:35:39.810+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:35:39.817+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goods-web.json","group":"dev","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:35:39.817+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-06-03T11:35:39.819+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: goods-web.json, group: dev, namespaceId: 7002997d-ec19-435a-a2ee-1432fac4b923.
+2022-06-03T11:59:48.953+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:59:48.959+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:59:48.962+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-03T11:59:48.964+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-06-03T11:59:48.964+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: oss-web.json, group: pro, namespaceId: 7002997d-ec19-435a-a2ee-1432fac4b923.
+2022-06-04T20:01:57.966+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-04T20:01:57.970+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-04T20:01:57.977+0800	[31mERROR[0m	nacos_server/nacos_server.go:194	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"oss-web.json","group":"pro","tenant":"7002997d-ec19-435a-a2ee-1432fac4b923"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-06-04T20:01:57.977+0800	[31mERROR[0m	config_client/config_client.go:191	get config from server error:[404] config data not exist
+ 
+2022-06-04T20:01:57.978+0800	[33mWARN[0m	config_client/config_client.go:196	[client.GetConfig] config not found, dataId: oss-web.json, group: pro, namespaceId: 7002997d-ec19-435a-a2ee-1432fac4b923.

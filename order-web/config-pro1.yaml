@@ -1,0 +1,22 @@
+name: 'order-web'
+port: 8021
+
+goods_srv:
+  host: '192.168.1.26'
+  port: 50051
+  name: 'user-srv'
+
+jwt:
+  key: 'L@%^8QYj#d1hUt%yhpG4AN9j#19'
+
+sms:
+  key: 'xxxx'
+  secrect: 'xxx'
+  expire: 300
+redis:
+  host: '192.168.1.26'
+  port: 6379
+
+consul:
+    host: '192.168.1.26'
+    port: 8500

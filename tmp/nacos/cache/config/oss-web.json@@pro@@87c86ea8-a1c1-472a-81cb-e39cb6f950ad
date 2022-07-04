@@ -1,0 +1,20 @@
+{
+  "name": "oss-web",
+  "host": "192.168.1.10",
+  "tags":["zhaoshop", "zhao", "gin", "oss", "web"],
+  "port": 8029,
+  "oss":{
+    "key":"LTAI4FzVU3GMnFDof6xZHSbd",
+    "secrect":"DP7mDPQGy9JHfZnwYdUhDuy3Q4pm87",
+    "host":"http://py-go.oss-cn-beijing.aliyuncs.com",
+    "callback_url":"http://39.107.30.137:8082/callback",
+    "upload_dir":"zhaoshop-images/"
+  },
+  "jwt": {
+    "key": "L@%^8QYj#d1hUt%yhpG4AN9j#19"
+  },
+  "consul": {
+    "host": "192.168.1.31",
+    "port": 8500
+  }
+}

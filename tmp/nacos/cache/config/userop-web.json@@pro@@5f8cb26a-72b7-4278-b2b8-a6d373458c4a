@@ -1,0 +1,23 @@
+{
+    "name":"userop-web",
+    "goods_srv_name":"goods_srv",
+    "userop_srv_name":"userop_srv",
+    "port":8027,
+    "tags":["userop-web","zhaoshop","golang"],
+    "jwt":{
+        "key":"L@%^8QYj#d1hUt%yhpG4AN9j#19"
+    },
+    "sms":{
+        "key":"xxxx",
+        "secrect":"xxx",
+        "expire":300
+    },
+    "redis":{
+        "host":"192.168.1.31",
+        "port":6379
+    },
+    "consul":{
+        "host":"192.168.1.31",
+        "port":8500
+    }
+}

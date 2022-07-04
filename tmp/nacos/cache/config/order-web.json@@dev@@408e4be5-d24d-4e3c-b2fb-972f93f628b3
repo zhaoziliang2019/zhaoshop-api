@@ -1,0 +1,31 @@
+{
+    "name":"orders-web",
+    "order_srv_name":"orders_srv",
+    "goods_srv_name":"goods_srv",
+    "inventory_srv_name":"inventorys_srv",
+    "port":8023,
+    "tags":["orders-web","zhaoshop","golang"],
+    "jwt":{
+        "key":"L@%^8QYj#d1hUt%yhpG4AN9j#19"
+    },
+    "sms":{
+        "key":"xxxx",
+        "secrect":"xxx",
+        "expire":300
+    },
+    "redis":{
+        "host":"192.168.1.31",
+        "port":6379
+    },
+    "consul":{
+        "host":"192.168.1.31",
+        "port":8500
+    },
+    "alipay":{
+        "appid":"xxx",
+        "private_key":"xxx",
+        "ali_public_key":"xxx",
+        "notify_url":"xxxx",
+        "return_url":"192.168.1.31:80001"
+    }
+}
